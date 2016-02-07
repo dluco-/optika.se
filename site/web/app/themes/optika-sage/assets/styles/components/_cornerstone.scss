@@ -1,0 +1,26 @@
+// Overrides
+.x-entry-share {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  text-align: right !important;
+  p { @extend .hide;}
+}
+.x-promo-content { font-size: $font-size-small; }
+
+h1.h-custom-headline { margin-top: 0 !important; }
+
+.x-widget-area {
+  ul#menu-alla-bagar-i-vart-sortiment {
+      list-style-type: square;
+      @media ( min-width: $screen-phone ) {
+        list-style-position: inside;
+        columns: 2;
+        padding: 0;
+        margin: 0;
+      }
+      @media ( min-width: $screen-tablet ) {
+        columns: 3
+      }
+  }
+}
