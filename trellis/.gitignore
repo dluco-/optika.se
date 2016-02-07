@@ -1,3 +1,9 @@
 .vault_pass
 .vagrant
 vendor/roles
+group_vars/development/vault.yml
+group_vars/staging/vault.yml
+group_vars/production/vault.yml
+group_vars/development/wordpress_sites.yml
+group_vars/staging/wordpress_sites.yml
+group_vars/production/wordpress_sites.yml
